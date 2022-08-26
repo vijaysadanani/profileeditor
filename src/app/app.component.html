@@ -7,6 +7,7 @@
   <b>Favorite Color:</b>    {{user.favoriteColor}} <br>
   <b>Verified:</b>    {{user.isVerified === true ? "Yes" : "No"}}
 </div>
+
 <div *ngIf="displayEdit">
   <form #editForm="ngForm" (ngSubmit)="saveChanges(formUser.name, formUser.age, formUser.favoriteColor, formUser.isVerified)">
     <label style="padding:5px" for="name">What is your name?</label>
