@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Form, NgForm } from '@angular/forms';
-import { User } from '../User';
+import { User } from './interfaces/User';
 
 @Component({
   selector: 'app-root',
